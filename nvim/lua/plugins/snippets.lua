@@ -1,0 +1,3 @@
+return {
+	"nv-snippets.nvim",
+}
