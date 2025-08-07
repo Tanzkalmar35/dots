@@ -66,13 +66,23 @@ return {
 					program = "./${relativeFileDirname}",
 				},
 				{
-					name = "Debug Main",
+					name = "Debug JustSync Server",
 					program = "${workspaceFolder}/cmd/main/main.go",
 					type = "delve",
 					request = "launch",
-					outputMode = "remote", -- added: capture stdout/stderr
+					outputMode = "remote",
 					console = "integratedTerminal",
 					args = {},
+					cwd = "${workspaceFolder}",
+				},
+				{
+					name = "Debug JustSync Client",
+					program = "${workspaceFolder}/cmd/main/main.go",
+					type = "delve",
+					request = "launch",
+					outputMode = "remote",
+					console = "integratedTerminal",
+					args = { "--mode", "client", "--config", "client-test-3" },
 					cwd = "${workspaceFolder}",
 				},
 			}

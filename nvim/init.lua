@@ -11,3 +11,6 @@ vim.opt.scrolloff = 10
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
 vim.opt.tabstop = 4
+
+-- Global keybindings
+vim.keymap.set("i", "kj", "<Esc>")

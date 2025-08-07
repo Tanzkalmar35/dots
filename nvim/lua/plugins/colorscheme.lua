@@ -23,4 +23,9 @@ return {
 		name = "catppuccin",
 		priority = 1000,
 	},
+	{
+		"webhooked/kanso.nvim",
+		lazy = false,
+		priority = 1000,
+	},
 }
