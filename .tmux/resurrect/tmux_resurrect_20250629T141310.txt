@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	fabian@archlinux:~/Desktop/git/JustSync	:/home/fabian/Desktop/git/JustSync	1	nvim	:nvim .
+pane	0	2	0	:-	1	fabian@archlinux:~/Desktop/git/JustSync	:/home/fabian/Desktop/git/JustSync	1	go	:go run cmd/main/main.go --mode server
+pane	0	3	0	:	1	fabian@archlinux:~/Desktop/git/JustSync	:/home/fabian/Desktop/git/JustSync	1	go	:go run cmd/main/main.go --mode admin
+window	0	1	:nvim	1	:*	ce9d,208x48,0,0,0	:
+window	0	2	:go	0	:-	ce9e,208x48,0,0,1	:
+window	0	3	:go	0	:	ce9f,208x48,0,0,2	:
+state	0	
